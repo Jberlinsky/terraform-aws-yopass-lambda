@@ -1,0 +1,14 @@
+package: yopass
+import:
+- package: github.com/akrylysov/algnhsa
+  version: ^0.5.0
+- package: github.com/aws/aws-sdk-go
+  version: ^1.13.32
+  subpackages:
+  - aws
+  - aws/session
+  - service/dynamodb
+- package: github.com/jhaals/yopass
+  version: ecfc92920a57900d1f80b968f0552e22b4552278
+- package: github.com/satori/go.uuid
+  version: f58768cc1a7a7e77a3bd49e98cdd21419399b6a3

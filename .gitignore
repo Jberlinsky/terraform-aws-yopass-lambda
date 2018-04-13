@@ -1,0 +1,5 @@
+.terraform/
+lambda_src/bin/*
+lambda_src/vendor
+react_src/node_modules
+react_src/build
